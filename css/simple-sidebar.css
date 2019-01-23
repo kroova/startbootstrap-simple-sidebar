@@ -42,7 +42,7 @@ body {
 #page-content-wrapper {
   width: 70%;
   position: absolute;
-  padding: 250px;
+  padding-left: 250px;
   border-right: 10px solid #222;
 }
 

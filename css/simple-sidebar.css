@@ -8,6 +8,35 @@ body {
   overflow-x: hidden;
 }
 
+/*#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+  padding-left: 250px;
+}*/
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  /*margin-left: -250px;*/
+  overflow-y: auto;
+  background: #000;
+/*  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;*/
+}
+
+/*#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}*/
 
 
 

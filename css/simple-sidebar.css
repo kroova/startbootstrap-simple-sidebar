@@ -103,11 +103,11 @@ body {
   #wrapper {
     padding-left: 0;
   }
-  #wrapper.toggled {
+  /*#wrapper.toggled {
     padding-left: 250px;
-  }
+  }*/
   #sidebar-wrapper {
-    width: 0;
+    width: 250;
   }
   #wrapper.toggled #sidebar-wrapper {
     width: 250px;

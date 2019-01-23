@@ -7,7 +7,6 @@
 body {
   overflow-x: hidden;
 }
-
 #wrapper {
   padding-left: 0;
   -webkit-transition: all 0.5s ease;
@@ -22,10 +21,10 @@ body {
 #sidebar-wrapper {
   z-index: 1000;
   position: fixed;
-  left: 0px;
-  width: 250px;
+  left: 250px;
+  width: 0;
   height: 100%;
-  margin-left: -250px;*/
+  margin-left: -250px;
   overflow-y: auto;
   background: #000;
   -webkit-transition: all 0.5s ease;
@@ -34,11 +33,9 @@ body {
   transition: all 0.5s ease;
 }
 
-/*#wrapper.toggled #sidebar-wrapper {
+#wrapper.toggled #sidebar-wrapper {
   width: 250px;
-}*/
-
-
+}
 
 #page-content-wrapper {
   width: 70%;

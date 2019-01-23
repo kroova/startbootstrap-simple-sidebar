@@ -25,10 +25,11 @@ body {
  }
 
 #page-content-wrapper {
-  width: 50%;
+  width: 70%;
   position: absolute;
   margin-left: 250px;
   border-right: 10px solid #222;
+  background-color: #fff;
 }
 
 /* Sidebar Styles */

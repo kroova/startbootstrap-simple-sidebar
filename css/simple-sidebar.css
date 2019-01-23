@@ -24,10 +24,6 @@ body {
   background: #000;
  }
 
-/*#wrapper.toggled #sidebar-wrapper {
-  width: 250px;
-}*/
-
 #page-content-wrapper {
   width: 50%;
   position: absolute;
@@ -86,21 +82,11 @@ body {
   #wrapper {
     padding-left: 250;
   }
-  /*#wrapper.toggled {
-    padding-left: 250px;
-  }*/
   #sidebar-wrapper {
     width: 250px;
   }
-  /*#wrapper.toggled #sidebar-wrapper {
-    width: 250px;
-  }*/
   #page-content-wrapper {
     padding: 20px;
     position: relative;
   }
- /* #wrapper.toggled #page-content-wrapper {
-    position: relative;
-    margin-right: 0;
-  }*/
 }

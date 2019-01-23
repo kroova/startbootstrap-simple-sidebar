@@ -42,14 +42,14 @@ body {
 #page-content-wrapper {
   width: 70%;
   position: absolute;
-  padding: 15px;
+  padding: 250px;
   border-right: 10px solid #222;
 }
 
-#wrapper.toggled #page-content-wrapper {
+/*#wrapper.toggled #page-content-wrapper {
   position: absolute;
   margin-right: -250px;
-}
+}*/
 
 
 /* Sidebar Styles */

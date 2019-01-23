@@ -109,15 +109,15 @@ body {
   #sidebar-wrapper {
     width: 250;
   }
-  #wrapper.toggled #sidebar-wrapper {
+  /*#wrapper.toggled #sidebar-wrapper {
     width: 250px;
-  }
+  }*/
   #page-content-wrapper {
     padding: 20px;
     position: relative;
   }
-  #wrapper.toggled #page-content-wrapper {
+ /* #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0;
-  }
+  }*/
 }

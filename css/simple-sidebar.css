@@ -6,6 +6,7 @@
 
 body {
   overflow-x: hidden;
+  background-image: url("background img.png");
 }
 
 #wrapper {
@@ -28,17 +29,11 @@ body {
 }*/
 
 #page-content-wrapper {
-  width: 70%;
+  width: 50%;
   position: absolute;
-  padding-left: 250px;
+  margin-left: 250px;
   border-right: 10px solid #222;
 }
-
-/*#wrapper.toggled #page-content-wrapper {
-  position: absolute;
-  margin-right: -250px;
-}*/
-
 
 /* Sidebar Styles */
 

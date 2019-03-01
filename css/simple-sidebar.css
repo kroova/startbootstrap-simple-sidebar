@@ -1,4 +1,4 @@
-/*!
+/*
  * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
@@ -21,7 +21,7 @@ body {
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background: #000;
+  background: #222;
  }
 
 #page-content-wrapper {
@@ -30,6 +30,7 @@ body {
   margin-left: 250px;
   border-right: 10px solid #222;
   background-color: #fff;
+  font-size: 14px;
 }
 
 /* Sidebar Styles */
@@ -83,11 +84,30 @@ body {
   #wrapper {
     padding-left: 250;
   }
-  #sidebar-wrapper {
-    width: 250px;
-  }
-  #page-content-wrapper {
-    padding: 20px;
-    position: relative;
-  }
+
+}
+.carousel-control-prev-icon, .carousel-control-next, #carouselExampleIndicators-indicators {
+    background-color: #222;
+    color: #222;
+}
+h1 {
+    color:#fff;
+    background: #222; 
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-style: italic;
+}
+h2 {
+    color: #fff;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 20px;
+    background: #222;
+    margin-top: -10px;
+    font-variant: small-caps;
+    font-family: 'Courier New', Courier, monospace;
+}
+#images {
+ text-align: center;
 }
